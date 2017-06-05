@@ -276,21 +276,4 @@ function drags(dragElement, resizeElement, container) {
 
 
 
-// 
 
-// create a slideshow on the main page with arrows on either side. user can click to make
-// next image appear or user can wait for slideshow to make next image appear
-
-
-
-// on both preset package pages add 3 photos that include a before and after feature using a slider. 
-// will need a plugin and then will write js to apply slider function. When user moves the slider it will 
-// show before and after preset application. 
-
-// when user clicks $75.00 - Purchase button the preset chosen will show in Cart.
-
-// on contact page create a message that appears once user submits the form: "Thank you for your message! We will get back to you very soon!"
-
-// on cart page create a form that will reflect product chosen and the price. also have fields for user's information: name and email. apply a paypal button as well as 
-// submit or complete purchase button that show a message when clicked: "thank you for your purchase! Check your
-// email for your new preset package download link"
