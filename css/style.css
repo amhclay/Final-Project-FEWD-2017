@@ -1,0 +1,989 @@
+/*font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+/*.nav {
+	display: inline-block;
+}*/
+body {
+	background-color: #F8F8F8;
+	height: 100vh;
+	width: 100vw;
+}
+
+
+
+	}
+	
+	.homewording div h2 {
+		padding-top: 250px;
+	}
+	.homewording div {
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 25px;
+	}
+/*	.homewording p {
+		font-size: 20px;
+		width: 70vw;
+		margin: auto;
+		margin-bottom: 50px;
+		padding-bottom: 50px;
+		display: inline-block;
+	}*/
+
+.homewording h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 15px;
+	font-weight: 300;
+	text-align: center; 
+	/*margin-top: 10px;*/
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.homewording p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	font-weight: 200;
+	text-align: center;
+	margin: 0 5px 50px 5px;
+	display: inline-block;
+	width: 70vw;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+
+li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+	font-weight: 600;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.logo {
+	font-family: 'Libre Baskerville', serif;
+	margin-top: 50px;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.dropbtn {
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #f1f1f1;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+}
+
+/*.photobox {
+	height: 40vh;
+	width: 60vw;
+	
+}*/
+.photobox {
+	height: 30vh;
+	width: 80vw;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	position: relative;
+}
+.photobox div {
+	width: 100%;
+	display: inline-block;
+	display: none;
+}
+.photobox img {
+	width: 100%;
+}
+
+/*ABOUT PAGE CSS STYLING*/
+
+.about-aside {
+	width: 85vw;
+	text-align: center;
+	margin: auto;
+}
+
+.about-aside h2 {
+	font-family: 'Libre Baskerville', serif;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	/*background-image: */
+
+}
+.about-aside p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.aboutphoto1, .aboutphoto2, .aboutphoto3 {
+	height: 30h;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+.aboutphoto1 img, .aboutphoto2 img, .aboutphoto3 img {
+	height: 40vh;
+}
+
+/*.aboutthree {
+	margin-bottom: 35px;
+}*/
+
+/*BLAKE AND MARTIN PHOTOGRAPHER CSS STYLING*/
+
+.justinphoto, .andrewphoto {
+	height: 10vh;
+}
+
+.justin-blake, .andrew-martin {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.aboutjustin, .aboutandrew {
+	font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+	text-align: center;
+	width: 85vw;
+	margin: auto;
+	margin-bottom: 15px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+
+.blakepresets h2, .martinpresets h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 14px;
+	margin: 0 40px 2px 40px;
+	text-align: center;
+
+}
+
+.blakepresets p, .martinpresets p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 8px;
+	font-style: italic;
+	font-weight: 200;
+	margin: auto;
+	text-align: center;
+}
+/*.blakepresets {
+	background-color: #E9E7E5;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}*/
+.purchase {
+	display: flex;
+	justify-content: center;
+	margin: 15px auto 15px auto;
+	border-radius: 5px;
+  	font-weight: 600;
+  	padding: 4px 0;
+  	width: 180px;
+  	font-size: 14px;
+  	text-align: center;
+  	display: block;
+ 	background-color: #D7D6D5;
+}
+
+.no-returns {
+	font-family: 'Raleway', sans-serif;
+	font-size: 8px;
+	font-style: italic;
+	font-weight: 200;
+	margin: auto;
+	text-align: center;
+}
+
+.checkout {
+	font-family: 'Libre Baskerville', serif;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+.contact-us h1{
+	font-family: 'Libre Baskerville', serif;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+div .contact-us img {
+	height: 40vh;
+	margin-top: 0;
+	margin-bottom: 20px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+div .teamphoto {
+	height: 40vh;
+	margin-bottom: 10px;
+}
+.contact-us p, .hearfrom {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 6px 10px 6px;
+}
+
+.contact-form {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	margin: 0 12px 25px 12px;
+}
+
+.contact-form input {
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+/*input[type="submit"] {
+	border-radius: 5px;
+  	font-weight: 500;
+  	padding: 3px 0;
+  	width: 180px;
+  	font-size: 12px;
+  	text-align: center;
+  	display: inline-block;
+ 	background-color: #D7D6D5;
+ 	display: flex;
+ 	justify-content: center;
+}*/
+
+.phone, .address {
+	height: 4vh;
+	font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+	text-align: center;
+	margin: 5px 5px;
+}
+.phone {
+	padding-top: 6px;
+}
+
+.andrewphoto, .justinphoto {
+	height: 25vh;
+}
+
+.andrewphoto img, .justinphoto img {
+	height: 20vh;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.justinexample1, .justinexample2, .justinexample3, .andrewexample1, .andrewexample2, .andrewexample3 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+@import "lesshat";
+
+	.ba-slider, .ba-slider2, .ba-slider3 {
+    	position: relative;
+    	overflow: hidden;
+	}
+	.ba-slider3 {
+		margin-bottom: 50px;
+	}
+ 
+	.ba-slider img, .ba-slider2 img, .ba-slider3 img {
+    	width: 100vw;
+    	display:block;
+	}
+ 
+	.resize {
+   		position: absolute;
+    	top:0;
+    	left: 0;
+    	height: 100%;
+    	width: 100vw;
+    	overflow: hidden;
+	}
+
+
+	.handle { /* Thin line seperator */
+  		position:absolute; 
+  		left:50%;
+  		top:0;
+ 		bottom:0;
+  		width:4px;
+  		margin-left:-2px;
+ 
+  		background: rgba(0,0,0,.5);
+  		cursor: ew-resize;
+	}
+ 
+	.handle:after {  /* Big orange knob  */
+    	position: absolute;
+    	top: 50%;
+    	width: 64px;
+    	height: 64px;
+    	margin: -32px 0 0 -32px;
+ 
+    	content:'\21d4';
+    	color:white;
+    	font-weight:bold;
+    	font-size:36px;
+    	text-align:center;
+    	line-height:64px;
+ 
+    	background: #ffb800; /* @orange */
+    	border:1px solid #e6a600; /* darken(@orange, 5%) */
+    	border-radius: 50%;
+    	transition:all 0.3s ease;
+    	box-shadow:
+      	0 2px 6px rgba(0,0,0,.3), 
+      	inset 0 2px 0 rgba(255,255,255,.5),
+      	inset 0 60px 50px -30px #ffd466; /* lighten(@orange, 20%)*/ 
+	}
+
+	.draggable:after {
+    	width: 48px;
+    	height: 48px;
+    	margin: -24px 0 0 -24px;
+    	line-height:48px;
+    	font-size:30px;
+	}
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:36%;
+		margin:1.5em 0;
+	}
+	
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+	
+	table#cart thead { 
+		display: none; 
+	}
+	table#cart tbody td { 
+		display: block; 
+		padding: .6rem; 
+		min-width:320px;
+	}
+	table#cart tbody tr td:first-child { 
+		background-color: #F8F8F8; 
+		color: black; 
+	}
+	table#cart tbody td:before {
+		content: attr(data-th); 
+		font-weight: bold;
+		display: inline-block; 
+		width: 8rem;
+		font-family: "Libre Baskerville";
+	}
+	.checkout-button {
+		font-family: "Libre Baskerville";
+		display: flex;
+		justify-content: center;
+		margin: 15px auto 15px auto;
+		border-radius: 5px;
+  		font-weight: 600;
+  		padding: 4px 0;
+  		width: 180px;
+  		font-size: 14px;
+  		text-align: center;
+  		display: block;
+ 		background-color: #D7D6D5;
+	}
+	
+	
+	table#cart tfoot td{
+		display:block; 
+	}
+	table#cart tfoot td .btn{
+		display:block;
+	}
+	.container #cart {
+		margin-bottom: 75px;
+	}
+}
+
+@media (min-width: 768px) {
+
+	form {
+		margin: 80px 80px 60px 80px ;
+	}
+	.teamphoto {
+		height: 20vh;
+	}
+	.contact-us h1 {
+		font-size: 24px;
+	}
+
+	.contact-us p {
+		width: 70vw;
+		margin: auto;
+		font-size: 20px;
+	}
+
+	.nav {
+		margin-bottom: 60px;
+	}
+
+	.homewording h2 {
+		/*padding-top: 50px;*/
+		display: inline-block;
+		padding-top: 30px;
+		/*position: absolute;*/
+	}
+	
+	/*.homewording div h2 {
+		padding-top: 100px;
+	}*/
+	.homewording div {
+		text-align: center;
+	}
+/*	.homewording p {
+		font-size: 20px;
+		width: 70vw;
+		margin: auto;
+		margin-top: 35px;
+		margin-bottom: 50px;
+		padding-bottom: 50px;
+		display: inline-block;
+	}*/
+	.homewording h2, .logo {
+		font-size: 24px;
+		width: 75vw;
+		text-align: center;
+		margin: auto;
+		margin-top: 30px;
+	}
+	.homewording p {
+		font-size: 20px;
+		width: 70vw;
+		margin: auto;
+		/*margin-top: 35px;*/
+		display: inline-block;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	li {
+		font-size: 14px;
+	}
+	.photobox {
+		width: 75vw;
+		margin-top: 5px;
+	}
+
+/*	.aboutphoto1, .aboutphoto2, .aboutphoto3 {
+		height: 30h;
+		margin: auto;
+		
+	}*/
+	.aboutphoto1 img, .aboutphoto2 img, .aboutphoto3 img {
+		height: 30vh;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+	}
+	#container {
+		height: 100vh;
+		width: 100vw;
+
+	}
+	.about-aside h2 {
+		margin-top: 0px;
+	}
+	.about-aside p {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	/*.aboutone {
+		font-size: 24px;
+	}*/
+	.justin-blake {
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	.aboutjustin {
+		font-size: 20px;
+	}
+	.blakepresets h2 {
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+	.blakepresets p {
+		font-size: 16px;
+	}
+	.no-returns {
+		font-size: 16px;
+	}
+	.purchase {
+		font-size: 22px;
+		width: 200px;
+	}
+	.andrew-martin {
+		font-size: 30px;
+		margin-bottom: 30px;
+		padding-top: 45px;
+	}
+	.aboutandrew {
+		font-size: 20px;
+	}
+
+	.justinphoto img, .andrewphoto img {
+		margin: auto;
+		display: flex;
+		justify-content: center;
+	}
+	.martinpresets h2 {
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+	.martinpresets p {
+		font-size: 16px;
+	}
+
+	.justinexample1, .justinexample2, .justinexample3, .andrewexample1, .andrewexample2, .andrewexample3 {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	@import "lesshat";
+
+	.ba-slider, .ba-slider2, .ba-slider3 {
+    	position: relative;
+    	overflow: hidden;
+    	width: 65vw;
+    	margin-left: 135px;
+	}
+ 
+	.ba-slider img, .ba-slider2 img, .ba-slider3 img {
+    	width: 100%;
+    	display:block;
+	}
+ 
+	.resize {
+   		position: absolute;
+    	top:0;
+    	left: 0;
+    	height: 100%;
+    	width: 50%;
+    	overflow: hidden;
+	}
+
+
+	.handle { /* Thin line seperator */
+  		position:absolute; 
+  		left:50%;
+  		top:0;
+ 		bottom:0;
+  		width:4px;
+  		margin-left:-2px;
+ 
+  		background: rgba(0,0,0,.5);
+  		cursor: ew-resize;
+	}
+ 
+	.handle:after {  /* Big orange knob  */
+    	position: absolute;
+    	top: 50%;
+    	width: 64px;
+    	height: 64px;
+    	margin: -32px 0 0 -32px;
+ 
+    	content:'\21d4';
+    	color:white;
+    	font-weight:bold;
+    	font-size:36px;
+    	text-align:center;
+    	line-height:64px;
+ 
+    	background: #ffb800; /* @orange */
+    	border:1px solid #e6a600; /* darken(@orange, 5%) */
+    	border-radius: 50%;
+    	transition:all 0.3s ease;
+    	box-shadow:
+      	0 2px 6px rgba(0,0,0,.3), 
+      	inset 0 2px 0 rgba(255,255,255,.5),
+      	inset 0 60px 50px -30px #ffd466; /* lighten(@orange, 20%)*/ 
+	}
+
+	.draggable:after {
+    	width: 48px;
+    	height: 48px;
+    	margin: -24px 0 0 -24px;
+    	line-height:48px;
+    	font-size:30px;
+	}
+	.container #cart {
+		margin-bottom: 400px;
+	}
+	.checkout-button {
+		font-family: "Libre Baskerville";
+		display: flex;
+		justify-content: center;
+		margin: 15px auto 15px auto;
+		border-radius: 5px;
+  		font-weight: 600;
+  		padding: 4px 0;
+  		width: 180px;
+  		font-size: 14px;
+  		text-align: center;
+  		display: block;
+ 		background-color: #D7D6D5;
+	}
+}	
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+	.homewording div h2 {
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.photobox {
+		margin-bottom: 0;
+		height: 10vh;
+	}
+	.homewording h2 {
+		margin-top: 0;
+		padding-top: 0;
+		height: 10vh;
+	}
+	.checkout-button {
+		font-family: "Libre Baskerville";
+		display: flex;
+		justify-content: center;
+		margin: 15px auto 15px auto;
+		border-radius: 5px;
+  		font-weight: 600;
+  		padding: 4px 0;
+  		width: 180px;
+  		font-size: 14px;
+  		text-align: center;
+  		display: block;
+ 		background-color: #D7D6D5;
+	}
+}
+@media (min-width: 960px) {
+
+	form {
+		margin: 80px 180px 160px 180px ;
+	}
+	.teamphoto {
+		height: 20vh;
+	}
+	.contact-us h1 {
+		font-size: 30px;
+	}
+
+	.contact-us p {
+		width: 70vw;
+		margin: auto;
+		font-size: 20px;
+	}
+
+	.nav {
+		margin-bottom: 45px;
+		margin-right: 120px;
+	}
+	.homewording h2 {
+		/*padding-top: 50px;*/
+		margin-top: 50px;
+		display: inline-block;
+		height: 20vh;
+		/*position: absolute;*/
+
+	}
+	.homewording h2, .logo {
+		font-size: 30px;
+	}
+	.homewording div h2 {
+		margin-top: 200px;
+		padding-top: 300px;
+		display: inline-block;
+		height: 10vh;
+	}
+	/*.homewording{
+		height: 60vh;
+		margin-top: 100px;
+	}*/
+	.homewording div {
+		text-align: center;
+	}
+	.homewording p {
+		font-size: 20px;
+		width: 70vw;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 50px;
+		padding-bottom: 50px;
+		display: inline-block;
+
+	}
+	li {
+		font-size: 20px;
+		padding-top: 15px;
+	}
+	.photobox {
+		width: 80vw;
+		height: 60h;
+		position: relative;
+		margin-top: 30px;
+	}
+
+/*	.aboutphoto1, .aboutphoto2, .aboutphoto3 {
+		height: 50vh;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+	}*/
+	.aboutphoto1 img, .aboutphoto2 img, .aboutphoto3 img {
+		height: 50vh;
+		display: flex;
+		justify-content: center;
+	}
+	.about-aside h2 {
+		margin-top: 0px;
+		font-size: 30px;
+	}
+	.about-aside p {
+		font-size: 20px;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+
+	.andrewphoto img {
+		/*margin: auto;*/
+		display: flex;
+		justify-content: center;
+		height: 35vh;
+		margin-bottom: 75px;
+	}
+	/*make profile photos circular*/
+	.justinphoto img {
+		display: flex;
+		justify-content: center;
+		height: 35vh;
+		margin-bottom: 75px;
+	}
+	.justin-blake, .andrew-martin {
+		font-size: 30px;
+		margin: 15px 20px 15px 45px;
+	}
+	.aboutjustin, .aboutandrew {
+		font-size: 20px;
+		width: 65vw;
+		margin-top: 0;
+	}
+	.blakepresets h2, .martinpresets h2 {
+		font-size: 26px;
+		padding-top: 30px;
+		text-align: center;
+		margin: auto;
+		margin-bottom: 15px;
+		width: 70vw;
+	}
+
+	.justin-blake, .andrew-martin {
+		margin-top: 100px;
+	}
+	.blakepresets p, .martinpresets p {
+		font-size: 20px;
+	}
+	.no-returns {
+		font-size: 20px;
+	}
+	.purchase {
+		font-size: 22px;
+		width: 250px;
+	}
+	.contact-form {
+		font-size: 20px;
+	}
+	.hearfrom {
+		font-size: 20px;
+	}
+	.address, .phone {
+		font-size: 16px;
+	}
+	.checkout {
+		font-size: 36px;
+		margin-top: 100px;
+	}
+	.justinexample1, .justinexample2, .justinexample3, .andrewexample1, .andrewexample2, .andrewexample3 {
+		position: cover;
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+	}
+
+	
+
+	/*.justinexample2, .andrewexample2 {
+		margin: 30px 30px;
+	}*/
+	@import "lesshat";
+
+	.ba-slider, .ba-slider2, .ba-slider3 {
+    	position: relative;
+    	overflow: hidden;
+    	width: 65vw;
+    	margin-left: 225px;
+	}
+ 
+	.ba-slider img, .ba-slider2 img, .ba-slider3 img {
+    	width: 100%;
+    	display:block;
+	}
+ 
+	.resize {
+   		position: absolute;
+    	top:0;
+    	left: 0;
+    	height: 100%;
+    	width: 50%;
+    	overflow: hidden;
+	}
+
+
+	.handle { /* Thin line seperator */
+  		position:absolute; 
+  		left:50%;
+  		top:0;
+ 		bottom:0;
+  		width:4px;
+  		margin-left:-2px;
+ 
+  		background: rgba(0,0,0,.5);
+  		cursor: ew-resize;
+	}
+ 
+	.handle:after {  /* Big orange knob  */
+    	position: absolute;
+    	top: 50%;
+    	width: 64px;
+    	height: 64px;
+    	margin: -32px 0 0 -32px;
+ 
+    	content:'\21d4';
+    	color:white;
+    	font-weight:bold;
+    	font-size:36px;
+    	text-align:center;
+    	line-height:64px;
+ 
+    	background: #ffb800; /* @orange */
+    	border:1px solid #e6a600; /* darken(@orange, 5%) */
+    	border-radius: 50%;
+    	transition:all 0.3s ease;
+    	box-shadow:
+      	0 2px 6px rgba(0,0,0,.3), 
+      	inset 0 2px 0 rgba(255,255,255,.5),
+      	inset 0 60px 50px -30px #ffd466; /* lighten(@orange, 20%)*/ 
+	}
+
+	.draggable:after {
+    	width: 48px;
+    	height: 48px;
+    	margin: -24px 0 0 -24px;
+    	line-height:48px;
+    	font-size:30px;
+	}
+	.container #cart {
+		margin-bottom: 500px;
+	}
+	.checkout-button {
+		font-family: "Libre Baskerville";
+		display: flex;
+		justify-content: center;
+		margin: 15px auto 15px auto;
+		border-radius: 5px;
+  		font-weight: 600;
+  		padding: 4px 0;
+  		width: 180px;
+  		font-size: 14px;
+  		text-align: center;
+  		display: block;
+ 		background-color: #D7D6D5;
+	}
+  	
+}	
+@media (min-width: 1024px) {
+	.homewording h2 {
+		height: 20vh;
+	}
+	.photobox {
+		height: 25vh;
+	}
+}
+
+
+
+
+
+
+
+
+
+

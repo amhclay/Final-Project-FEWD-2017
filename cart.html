@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>My Cart | Drift Presets</title>
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="container">
+	<header>
+		<div class="container">
+			<div class="logo"><a href="index.html">DRIFT PRESETS</a></div>
+			<nav>
+				<ul class="nav">
+					<li><div class="line"></div><div class="line"></div><div class="line"></div></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<div class="dropdown">
+						<li class="dropbtn">PRESET PACKAGES</li>
+							<ul class="dropdown-content">
+								<li><a href="photographerblake.html">JUSTIN BLAKE PRESETS</a></li>
+								<li><a href="photographermartin.html">ANDREW MARTIN PRESETS</a></li>
+							</ul>
+					</div>
+					<li><a href="contact.html">CONTACT US</a></li>
+					<li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="checkout">My Cart</div>
+
+
+	<div class="container">
+		<table id="cart" class="table table-hover table-condensed">
+    		<thead>
+				<tr>
+					<th style="width:50%">Product</th>
+					<th style="width:10%">Price</th>
+					<th style="width:8%">Quantity</th>
+					<th style="width:22%" class="text-center">Subtotal</th>
+					<th style="width:10%"></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td data-th="Product">
+						<div class="row">
+							<div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive"/></div>
+							<div class="col-sm-10">
+								<h4 class="nomargin">- -</h4>
+								<p></p>
+							</div>
+						</div>
+					</td>
+					<td data-th="Price">$0.00</td>
+					<td data-th="Quantity">
+						<input type="number" class="form-control text-center" value="">
+					</td>
+					<td data-th="Subtotal" class="text-center">0.00</td>
+					<td class="actions" data-th="">								
+					</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr class="visible-xs">
+					<td class="text-center"><strong>Total 0.00</strong></td>
+				</tr>
+				<tr>
+					<!-- <td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+					<td colspan="2" class="hidden-xs"></td> -->
+					<td class="hidden-xs text-center"><strong>Total $0.00</strong></td>
+					<td>
+						<button class="checkout-button">Checkout</button>
+					</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+	<div class="intouch">
+		<h2 class="hearfrom">Get in touch. We'd love to hear from you!</h2>
+		<div class="phone">1-800-999-9999</div>
+		<div class="address">1000 Drift Boulevard, Atlanta, GA 30317</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+
+</html>
